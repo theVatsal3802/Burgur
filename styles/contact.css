@@ -1,0 +1,82 @@
+main {
+  margin: 0 auto;
+  width: 70%;
+}
+
+p {
+  font-size: var(--size-small-med);
+}
+
+#join h1 {
+  text-align: center;
+  font-size: var(--size-3);
+  font-family: "Oleo Script", sans-serif;
+  margin: var(--size-3) 0 0 0;
+}
+
+#join p {
+  text-align: center;
+}
+
+#contact h2 {
+  text-align: center;
+  font-size: var(--size-2);
+  font-family: "Oleo Script", sans-serif;
+  margin: var(--size-3) 0 0 0;
+}
+
+#contact p {
+  text-align: center;
+}
+
+form {
+  margin: var(--size-3) auto;
+  display: flex;
+  flex-direction: column;
+}
+
+input,
+textarea {
+  margin: var(--size-small) 0 var(--size-1) 0;
+  box-sizing: border-box;
+  border: transparent;
+  width: 100%;
+  padding: var(--size-1);
+  border-radius: 8px;
+  display: block;
+}
+
+#personal ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--size-1);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#personal li:nth-of-type(1) {
+  grid-column: 1 / span 2;
+}
+
+#btn {
+  text-align: center;
+}
+
+button {
+  display: inline-block;
+  margin: var(--size-1) var(--size-small) 0 0;
+  background-color: var(--color-white-faded);
+  color: var(--color-green-dark);
+  padding: var(--size-small) var(--size-small-med);
+  font: inherit;
+  border-radius: 8px;
+  font-weight: bold;
+  border: 1px solid var(--color-white-faded);
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--color-white-1);
+  border-color: var(--color-white-1);
+}

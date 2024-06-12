@@ -10,32 +10,70 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&family=Quicksand:wght@400;700&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="/styles/shared.css">
-    <link rel="stylesheet" href="/styles/contact.css">
+    <link rel="stylesheet" href="../styles/shared.css">
+    <link rel="stylesheet" href="../styles/contact.css">
 </head>
 
 <body>
     <header>
-        <a href="/index.html" id="logo">Burgur</a>
+        <a href="../index.html" id="logo">Burgur</a>
         <nav>
             <ul>
                 <li>
-                    <a href="/index.html">Home</a>
+                    <a href="../index.html">Home</a>
                 </li>
                 <li>
-                    <a href="/pages/menu.html">Menu</a>
+                    <a href="./menu.html">Menu</a>
                 </li>
                 <li>
-                    <a href="/pages/about.html">About</a>
+                    <a href="./about.html">About</a>
                 </li>
                 <li>
-                    <a href="/pages/contact.html">Contact Us</a>
+                    <a href="./contact.html">Contact Us</a>
                 </li>
             </ul>
         </nav>
     </header>
     <main>
+        <section id="join">
+            <h1>Join Us</h1>
+            <p>Whether you're a seasoned burger connoisseur or just starting your burger journey, Burgur welcomes you.
+                Join us today and become part of a community that celebrates the joy of burgers, one bite at a time.</p>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Have questions or suggestions? Want to collaborate with us? We'd love to hear from you! Reach out to us
+                by filling the form below or DM and follow us on our social media channels for the latest updates and
+                burger inspiration.</p>
+            <form action="../index.html" method="get">
+                <section id="personal">
+                    <ul>
+                        <li>
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name">
+                        </li>
+                        <li>
+                            <label for="email">Email ID</label>
+                            <input type="email" id="email" name="email">
+                        </li>
+                        <li>
+                            <label for="phone">Mobile No.</label>
+                            <input type="number" id="phone" name="phone">
+                        </li>
+                    </ul>
+                </section>
 
+                <section>
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" rows="5"></textarea>
+                </section>
+
+                <section id="btn">
+                    <button type="reset">Clear Form</button>
+                    <button type="submit">Send Message</button>
+                </section>
+            </form>
+        </section>
     </main>
 </body>
 
