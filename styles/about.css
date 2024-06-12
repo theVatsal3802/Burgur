@@ -1,0 +1,110 @@
+html {
+  /* Colors */
+  --color-green-dark: #12372a;
+  --color-white-1: #fbfada;
+  --color-white-faded: #adbc9f;
+
+  /* Sizes */
+  --size-small: 0.5rem;
+  --size-small-med: 1.25rem;
+  --size-medium: 1.5rem;
+  --size-large: 9rem;
+  --size-1: 1rem;
+  --size-2: 2rem;
+  --size-3: 3rem;
+  --size-5: 5rem;
+}
+
+main {
+  margin: 0 auto;
+  width: 70%;
+}
+
+p {
+  font-size: var(--size-small-med);
+}
+
+#top h1 {
+  margin: var(--size-2) 0 0 0;
+  text-align: center;
+  font-size: var(--size-3);
+  font-family: "Oleo Script", sans-serif;
+}
+
+#top p {
+  margin: var(--size-1) auto;
+  text-align: center;
+  width: 80%;
+}
+
+#mission {
+  margin: var(--size-3) auto;
+  border-radius: 20px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.4),
+    rgba(255, 255, 255, 0.05)
+  );
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h2 {
+  text-align: center;
+  font-size: var(--size-2);
+  margin: var(--size-3) var(--size-5);
+  font-family: "Oleo Script", sans-serif;
+}
+
+#mission p {
+  margin: 0 var(--size-2);
+  text-align: justify;
+}
+
+#work ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#work li,
+#values li {
+  border-radius: 20px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.4),
+    rgba(255, 255, 255, 0.1)
+  );
+  padding: var(--size-small) var(--size-1);
+}
+
+.left {
+  width: 60%;
+  margin: var(--size-1) auto 0 0;
+  text-align: left;
+}
+
+.right {
+  width: 60%;
+  margin: var(--size-1) 0 0 auto;
+  text-align: right;
+}
+
+h3 {
+  font-family: "Oleo Script", sans-serif;
+  font-size: var(--size-medium);
+}
+
+#values {
+  margin-bottom: var(--size-2);
+}
+
+#values ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
